@@ -5,9 +5,9 @@
 echo -e "\033[?25l"
 clear
 
-echo -e "\033[38;5;183mhi! i'm zerda, your purple umbreon ^~^\033[0m"
+echo -e "\033[38;5;183mhi! i'm zerda \033[0m"
 echo -e "\033[38;5;183mit's currently $(TZ=America/New_York date '+%I:%M:%S %p') EST\033[0m"
-echo -e "\033[38;5;183mnight vibes & glowing rings only 🌑\033[0m\n"
+echo -e "\033[38;5;183 🌑\033[0m\n"
 
 IMAGE_URL="https://files.catbox.moe/1sxgi2.webp"
 IMAGE_FILE="/tmp/zerda-umbreon.webp"
@@ -25,5 +25,5 @@ else
   echo "Install chafa for best results: sudo apt install chafa"
 fi
 
-echo -e "\n\033[38;5;93mcurl this again for fresh vibes :3 ❤️\033[0m"
+echo -e "\n\033[38;5;93mcurl this again \033[0m"
 echo -e "\033[?25h"
